@@ -1,24 +1,89 @@
 #naslov {
-  left: 35%;
-  top: 35%;
-  text-align: center;
-  widht: 400px;
-  height: 200px;
+  padding-top: 150px;
+  padding-left: 560px;
 }
 
-.boogle {
-  text-align: center;
-  font-size: 150px;
-  text-color: linear-gradient(to right, blue , red);
+#iskalnik {
+  width:400px;
+  height:auto;
 }
 
 input[type=text] {
-    width: 400px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
-/* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
-    width: 100%;
+#prijava {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li[style=menu] {
+    display: inline;
+    font-family: system-ui;
+    float:right;
+    padding-right: 20px;
+}
+
+/* underline the text on hover */
+li[style=menu]:hover {
+    text-decoration: underline;
+}
+
+#noga_levo {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    float:left;
+    width:500px;
+}
+
+li[style=levica] {
+    display: inline;
+    font-family: system-ui;
+    padding-right: 20px;
+}
+
+/* underline the text on hover */
+li[style=levica]:hover {
+    text-decoration: underline;
+}
+
+#noga_desno {
+    list-style-type: none;
+    margin-left: 1000px;
+    padding-bottom:10px;
+    margin-bottom: 0;
+    position:fixed;
+    bottom:0;
+    float:right;
+  }
+
+li[style=desnica] {
+    display: inline;
+    font-family: system-ui;
+    padding-right: 20px;
+}
+
+/* underline the text on hover */
+li[style=desnica]:hover {
+    text-decoration: underline;
+}
+
+button {
+  background-color: #D8D8D8; /* Light gray */
+    border: none;
+    color: gray;
+    padding: 10px 26px;
+    margin-left:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
 }
